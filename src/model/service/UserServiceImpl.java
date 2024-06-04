@@ -16,12 +16,6 @@ public class UserServiceImpl implements UserService{
                 .toList();
     }
 
-
-    @Override
-    public List<UserDto> getAllUsers() {
-        return List.of();
-    }
-
     @Override
     public List<UserDto>addNewByUser(User user) {
         userDao.addNewUser(user);

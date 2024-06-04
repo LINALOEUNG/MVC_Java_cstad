@@ -5,7 +5,6 @@ import model.dto.UserDto;
 import java.util.List;
 
 public interface UserService {
-    List<UserDto> getAllUsers();
 
     List<UserDto> addNewByUser(User user);
 
